@@ -1,0 +1,191 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Lato, sans-serif;
+}
+
+.header {
+  display: flex;
+  background-color: rgb(50, 167, 145);
+  height: 80px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#inputEmail{
+  margin-right: 10px;
+}
+
+#inputPassword{
+  margin-right: 10px;
+}
+
+.trybewarts-header-logo {
+  height: 70px;
+}
+
+.trybewarts-login {
+  display: flex;
+}
+
+#loginBtn{
+  margin-right: 10px;
+  background-color: #5d166b;
+}
+
+#main-content {
+  display: flex;
+}
+
+#full-name {
+  display: flex;
+}
+
+#em-hs {
+  display: flex;
+}
+
+#inputs-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-left: 80px;
+  margin-top: 30px;
+}
+
+#evaluation-form {
+  display: flex;
+  width: 675px;
+  flex-direction: column;
+}
+
+#trybewarts-forms-logo {
+  height: 500px;
+}
+
+.label-family { display: flex; }
+
+#checkboxes {
+  display: flex;
+  justify-content: space-between;
+  height: 150px;
+}
+
+#checkboxes section {
+  margin: 10px;
+}
+
+.checkbox1 {
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  background-color: rgb(9, 83, 9);
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+}
+
+#imgform-container {
+  display: flex;
+  width: 900px;
+  justify-content: flex-end;
+}
+
+header h1 {
+  color: white;
+}
+
+#h1form {
+  padding-left: 80px;
+  padding-top: 30px;
+  text-align: center;
+}
+
+#first-section{
+  width: 675px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+#full-name{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+#em-hs{
+  display: flex;
+  justify-content: space-between;
+}
+
+h3{
+ margin-left: 100px;
+ color: white;
+}
+
+hr{
+  color: black;
+  width: 675px;
+}
+
+#second-section{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  width: 675px;
+}
+
+#familia{
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+}
+
+#conteudo{
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  padding-left: 250px;
+}
+
+#third-section{
+  margin-top: 20px;
+  width: 600px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+#fourty-section{
+  display: flex;
+  flex-direction: row; 
+  width: 657px;
+  margin-bottom: 15px;
+}
+
+#fifty-section{
+  margin-bottom: 5px;
+}
+
+#last-section{
+  margin-bottom: 30px;
+}
+
+#submit-btn{
+  width: 675px;
+  background-color: #5d166b;
+  color: white;
+}
+
+#house{
+  width: 100%;
+}
